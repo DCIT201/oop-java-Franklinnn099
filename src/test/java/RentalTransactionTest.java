@@ -5,7 +5,7 @@ class RentalTransactionTest {
 
     @Test
     void testRentalTransactionCost() {
-        Customer customer = new Customer("John Doe", "1234567890");
+        Customer customer = new Customer("Franklin Wiafe", "1234567890");
         Vehicle vehicle = new Car("C001", "Toyota Camry", 50, "Sedan");
         RentalTransaction transaction = new RentalTransaction(vehicle, 3, customer);
         transaction.completeTransaction();
@@ -25,7 +25,7 @@ class RentalTransactionTest {
 
     @Test
     void testLoyaltyPointsEarned() {
-        Customer customer = new Customer("John Doe", "1234567890");
+        Customer customer = new Customer("Franklin Wiafe", "1234567890");
         Vehicle vehicle = new Car("C001", "Toyota Camry", 50, "Sedan");
         RentalTransaction transaction = new RentalTransaction(vehicle, 3, customer);
         transaction.completeTransaction();
